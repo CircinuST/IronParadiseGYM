@@ -1,0 +1,359 @@
+body {
+  background: #f5f5f5;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif; }
+
+header .logo {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em; }
+  header .logo a {
+    display: inline-block; }
+header .redes-sociales {
+  text-align: right;
+  line-height: 7.5em; }
+  header .redes-sociales a {
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    text-align: center;
+    line-height: 2.5em;
+    display: inline-block;
+    background: navy;
+    color: #fff;
+    margin-left: 1.25em; }
+    header .redes-sociales a.youtube {
+      background: #ec0e0a; }
+    header .redes-sociales a.instagram {
+      background: #e1306c; }
+    header .redes-sociales a.twitter {
+      background: #55acee; }
+    header .redes-sociales a.facebook {
+      background: #3b5998; }
+header .menu {
+  background: #e5001f;
+  margin-bottom: 1.25em; }
+  header .menu ul {
+    list-style: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    text-align: center; }
+    header .menu ul li {
+      display: inline-block; }
+      header .menu ul li a {
+        text-decoration: none;
+        position: relative;
+        color: #fff;
+        display: inline-block;
+        padding: 2em 2.25em;
+        font-size: 1em; }
+        header .menu ul li a:hover {
+          text-decoration: none;
+          background: #f62b46; }
+
+main .nosotros {
+  background: url(../img/background.jpg), #000;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 10em 0em;
+  margin-top: 1.25em;
+  float: left; }
+  main .nosotros .gym {
+    margin: auto; }
+    main .nosotros .gym img {
+      float: right; }
+  main .nosotros .datos {
+    margin: auto;
+    padding-right: 2.5em; }
+    main .nosotros .datos .titulo {
+      text-align: center;
+      font-family: "Open Sans", Arial, Sans-serif;
+      font-weight: 700;
+      font-size: 3em;
+      color: #fff;
+      margin-bottom: 1em; }
+    main .nosotros .datos h4 {
+      text-align: center;
+      font-family: "Open Sans", Arial, Sans-serif;
+      font-weight: 400;
+      font-size: 1.25em;
+      color: #fff;
+      margin-bottom: 1.25em; }
+    main .nosotros .datos p {
+      text-align: left;
+      text-align: justify;
+      font-family: "Open Sans", Arial, Sans-serif;
+      font-weight: 300;
+      font-size: 1.25em;
+      color: #fff; }
+main .servicios .border-bottom h1 {
+  text-align: center;
+  font-family: "Open Sans", Arial, Sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  color: #000;
+  margin: 2em 0em; }
+main .servicios .card .card-title {
+  font-family: "Open Sans", Arial, Sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #000;
+  margin-bottom: 1em; }
+main .servicios .card .card-text {
+  font-family: "Open Sans", Arial, Sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: #000;
+  margin-bottom: 1.25em; }
+main .productos {
+  background: url(../img/fondo-productos.jpg), #000;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 1.25em; }
+  main .productos .contenedor {
+    padding-bottom: 3em; }
+  main .productos .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: #fff;
+    margin: 2em 0em; }
+  main .productos .card-title {
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #000;
+    margin-bottom: 0.625em;
+    text-align: center; }
+  main .productos a {
+    background: #000000;
+    color: #fff;
+    width: 100%;
+    padding: 1em 0em;
+    font-size: 1em;
+    border-radius: 0.5em; }
+    main .productos a:hover {
+      background: #e5001f;
+      color: #fff;
+      font-weight: 400;
+      box-shadow: 0em 0em 0.5em 0em rgba(0, 0, 0, 0.35); }
+main .precios {
+  padding: 5em 0em; }
+  main .precios .titulo h1 {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: #000;
+    margin-bottom: 1em; }
+  main .precios .plan {
+    margin-top: 1em;
+    background: #fff;
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    padding: 3.125em 0em;
+    box-shadow: 0em 0em 1em 0em rgba(0, 0, 0, 0.35); }
+    main .precios .plan .nombre {
+      font-size: 1.5em;
+      line-height: 2em;
+      font-weight: 600;
+      margin-bottom: 1.5em; }
+    main .precios .plan .precio {
+      font-weight: 400;
+      font-size: 3em; }
+    main .precios .plan .periodo {
+      margin-top: -1em;
+      font-size: 1.5em;
+      line-height: 2em;
+      font-weight: 600;
+      margin-bottom: 2em; }
+    main .precios .plan .caracteristicas {
+      list-style: none;
+      padding: 0em 1em;
+      margin-bottom: 3em; }
+      main .precios .plan .caracteristicas li {
+        font-size: 1em;
+        padding: 1em 0em;
+        border-bottom: 0.1666em solid #dedede; }
+    main .precios .plan .btn {
+      width: 70%;
+      padding: 1em 0em;
+      font-size: 1em;
+      text-align: center;
+      display: inline-block;
+      border-radius: 6.25em; }
+    main .precios .plan.gimnasio .nombre,
+    main .precios .plan.gimnasio .precio,
+    main .precios .plan.gimnasio .periodo {
+      color: #00980d; }
+    main .precios .plan.gimnasio .btn {
+      color: #00980d;
+      border: 2px solid #00980d; }
+      main .precios .plan.gimnasio .btn:hover {
+        background: #00980d;
+        color: #fff;
+        box-shadow: 0em 0em 0.5em 0em rgba(0, 0, 0, 0.35); }
+    main .precios .plan.masaje .nombre,
+    main .precios .plan.masaje .precio,
+    main .precios .plan.masaje .periodo {
+      color: #0091da; }
+    main .precios .plan.masaje .btn {
+      color: #0091da;
+      border: 2px solid #0091da; }
+      main .precios .plan.masaje .btn:hover {
+        background: #0091da;
+        color: #fff;
+        box-shadow: 0em 0em 0.5em 0em rgba(0, 0, 0, 0.35); }
+    main .precios .plan.nutriologo .nombre,
+    main .precios .plan.nutriologo .precio,
+    main .precios .plan.nutriologo .periodo {
+      color: #d49400; }
+    main .precios .plan.nutriologo .btn {
+      color: #d49400;
+      border: 2px solid #d49400; }
+      main .precios .plan.nutriologo .btn:hover {
+        background: #d49400;
+        color: #fff;
+        box-shadow: 0em 0em 0.5em 0em rgba(0, 0, 0, 0.35); }
+main .galeria {
+  margin-top: -5em;
+  padding: 5em 0em;
+  overflow: hidden; }
+  main .galeria .titulo h1 {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: #000;
+    margin-bottom: 1em; }
+  main .galeria .foto {
+    float: left;
+    width: 25%; }
+    main .galeria .foto img {
+      width: 100%;
+      vertical-align: top;
+      opacity: 0.8; }
+      main .galeria .foto img:hover {
+        opacity: 1;
+        transition: all 0.3s ease; }
+main .ubicacion {
+  overflow: hidden;
+  padding: 5em 0em;
+  margin-top: -5em; }
+  main .ubicacion .titulo h1 {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: #000;
+    margin-bottom: 1em; }
+  main .ubicacion .direccion {
+    float: left;
+    width: 50%;
+    text-align: left; }
+    main .ubicacion .direccion .calle {
+      margin-bottom: 1em; }
+  main .ubicacion .horarios {
+    float: right;
+    width: 50%;
+    text-align: right; }
+    main .ubicacion .horarios h4 {
+      text-align: center;
+      margin-bottom: 1em; }
+    main .ubicacion .horarios .horario .entre-semana, main .ubicacion .horarios .horario .sabado, main .ubicacion .horarios .horario .domingo {
+      width: 33.333%;
+      float: left;
+      overflow: hidden;
+      text-align: center; }
+main .mapa {
+  width: 100%;
+  overflow: hidden; }
+  main .mapa iframe {
+    width: 100%;
+    max-height: 37.5em; }
+main .contacto {
+  padding: 3em 0em; }
+  main .contacto .titulo h1 {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: #000;
+    margin-bottom: 1em; }
+  main .contacto .formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    main .contacto .formulario input[type="text"], main .contacto .formulario input[type="email"], main .contacto .formulario textarea {
+      border: 0.125em solid #cecece;
+      border-radius: 0.3125em;
+      padding: 1em 1.25em;
+      font-size: 1.25em;
+      color: #a4a4a4; }
+      main .contacto .formulario input[type="text"]:focus, main .contacto .formulario input[type="email"]:focus, main .contacto .formulario textarea:focus {
+        border: 0.135em solid #000;
+        outline: none; }
+    main .contacto .formulario input[type="text"], main .contacto .formulario input[type="email"] {
+      width: 49%;
+      margin-bottom: 1em; }
+    main .contacto .formulario textarea {
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      max-height: 100%;
+      min-height: 18.75em;
+      margin-bottom: 1em; }
+    main .contacto .formulario .boton {
+      margin: auto;
+      background: #e5001f;
+      color: #fff;
+      border: none;
+      border-radius: 0.5em;
+      padding: 1em 2.5em;
+      cursor: pointer; }
+      main .contacto .formulario .boton:hover {
+        background: #f62b46;
+        box-shadow: 0em 0em 0.5em 0em rgba(0, 0, 0, 0.35); }
+
+footer .redes-sociales {
+  background: #e5001f;
+  padding: 3.75em 0em; }
+  footer .redes-sociales .contenedor {
+    display: flex;
+    justify-content: center; }
+  footer .redes-sociales a {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 1em 0em;
+    border-radius: 10%;
+    font-size: 2.5em;
+    margin: 0em 1em; }
+  footer .redes-sociales .facebook:hover {
+    background: #3b5998;
+    box-shadow: 0em 0em 1em 0em rgba(0, 0, 0, 0.35); }
+  footer .redes-sociales .instagram:hover {
+    background: #e1306c;
+    box-shadow: 0em 0em 1em 0em rgba(0, 0, 0, 0.35); }
+  footer .redes-sociales .youtube:hover {
+    background: #ff0400;
+    box-shadow: 0em 0em 1em 0em rgba(0, 0, 0, 0.35); }
+  footer .redes-sociales .twitter:hover {
+    background: #55acee;
+    box-shadow: 0em 0em 1em 0em rgba(0, 0, 0, 0.35); }
+footer .pie-pagina .contenedor {
+  background: #000; }
+  footer .pie-pagina .contenedor p {
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1em; }
+
+/*# sourceMappingURL=estilos.css.map */
